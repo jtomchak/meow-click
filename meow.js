@@ -1,5 +1,8 @@
-window.onload = function() {
+import $ from "jquery";
+
+$(document).ready(function() {
   console.log("READY!!! MEOW!!!");
+  console.log($);
   //Get button element
   var searchGiphyButton = document.getElementById("getMeow");
   var giphyImage = document.getElementById("rando-gliph-img");
@@ -31,4 +34,4 @@ window.onload = function() {
 
     xhr.send();
   }
-};
+});
