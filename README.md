@@ -32,6 +32,9 @@ import $ from 'jquery'
 10. Now you _should_ be able to run webpack and have it _bundle_ your js and jquery together
 cmd ```./node_modules/.bin/webpack meow.js dist/bundle.js```
 
+Windows
+cmd ```"./node_modules/.bin/webpack meow.js dist/bundle.js"```
+
 ```cmd
 Hash: 43792813c6740e3c7540
 Version: webpack 3.8.1
@@ -57,5 +60,14 @@ module.exports = {
 ```
 
 12. cmd ```./node_modules/.bin/webpack --config webpack.config.js```
+
+13. Can't be writing that a bunch of times over and over. so in package.json. 
+We want to add a new script called 'build' and tell it 'webpack'
+```js
+ "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+```
 
 13. move our index.html file into our dist folder. we are done touching it
