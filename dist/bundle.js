@@ -77,7 +77,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).ready(function() {
-  console.log("READY!!! MEOW!!!");
+  console.log("READY!!! SET GO!!!");
   console.log(__WEBPACK_IMPORTED_MODULE_0_jquery___default.a);
   //Get button element
   var searchGiphyButton = document.getElementById("getMeow");
@@ -96,7 +96,8 @@ __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).ready(function() {
     //open
     xhr.open(
       "GET",
-      "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=" + str
+      "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=halloween" +
+        str
     );
 
     xhr.onload = function() {
@@ -10413,7 +10414,7 @@ exports = module.exports = __webpack_require__(4)(undefined);
 
 
 // module
-exports.push([module.i, ".container {\n  text-align: center;\n}\n\ninput[type=\"text\"] {\n  width: 30%;\n  box-sizing: border-box;\n  border: 2px solid #ccc;\n  border-radius: 4px;\n  font-size: 16px;\n  background-color: white;\n  background-image: url(\"https://www.w3schools.com/css/searchicon.png\");\n  background-position: 10px 10px;\n  background-repeat: no-repeat;\n  padding: 12px 20px 12px 40px;\n}\n.btn {\n  position: relative;\n  margin-left: 10px;\n  background-color: #4caf50;\n  border: none;\n  font-size: 22px;\n  color: #ffffff;\n  padding: 10px;\n  width: 200px;\n  text-align: center;\n  -webkit-transition-duration: 0.4s; /* Safari */\n  transition-duration: 0.4s;\n  text-decoration: none;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.btn:after {\n  content: \"\";\n  background: #f1f1f1;\n  display: block;\n  position: absolute;\n  padding-top: 300%;\n  padding-left: 350%;\n  margin-left: -20px !important;\n  margin-top: -120%;\n  opacity: 0;\n  transition: all 0.8s;\n}\n\n.btn:active:after {\n  padding: 0;\n  margin: 0;\n  opacity: 1;\n  transition: 0s;\n}\n.nothing-yet {\n  display: block;\n  margin-top: 44px;\n  font-size: 44px;\n}\n\n.nothing-yet-hidden {\n  display: none;\n}\n\n#rando-gliph-img {\n  padding: 40px;\n  width: 80%;\n}\n", ""]);
+exports.push([module.i, "body {\n  background-color: \"red\";\n}\n\n.container {\n  text-align: center;\n}\n\ninput[type=\"text\"] {\n  width: 30%;\n  box-sizing: border-box;\n  border: 2px solid #ccc;\n  border-radius: 4px;\n  font-size: 16px;\n  background-color: white;\n  background-image: url(\"https://www.w3schools.com/css/searchicon.png\");\n  background-position: 10px 10px;\n  background-repeat: no-repeat;\n  padding: 12px 20px 12px 40px;\n}\n.btn {\n  position: relative;\n  margin-left: 10px;\n  background-color: #4caf50;\n  border: none;\n  font-size: 22px;\n  color: #ffffff;\n  padding: 10px;\n  width: 200px;\n  text-align: center;\n  -webkit-transition-duration: 0.4s; /* Safari */\n  transition-duration: 0.4s;\n  text-decoration: none;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.btn:after {\n  content: \"\";\n  background: #f1f1f1;\n  display: block;\n  position: absolute;\n  padding-top: 300%;\n  padding-left: 350%;\n  margin-left: -20px !important;\n  margin-top: -120%;\n  opacity: 0;\n  transition: all 0.8s;\n}\n\n.btn:active:after {\n  padding: 0;\n  margin: 0;\n  opacity: 1;\n  transition: 0s;\n}\n.nothing-yet {\n  display: block;\n  margin-top: 44px;\n  font-size: 44px;\n}\n\n.nothing-yet-hidden {\n  display: none;\n}\n\n#rando-gliph-img {\n  padding: 40px;\n  width: 80%;\n}\n", ""]);
 
 // exports
 

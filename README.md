@@ -71,3 +71,18 @@ We want to add a new script called 'build' and tell it 'webpack'
 ```
 
 13. move our index.html file into our dist folder. we are done touching it
+
+14. ```npm install -D style-loader css-loader```
+
+15. modify the webpack config, be sure to removed the link css tag in our HTML
+```js
+...
+module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      }
+    ]
+  }
+```

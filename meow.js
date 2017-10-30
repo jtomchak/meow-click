@@ -2,7 +2,7 @@ import $ from "jquery";
 import "./style.css";
 
 $(document).ready(function() {
-  console.log("READY!!! MEOW!!!");
+  console.log("READY!!! SET GO!!!");
   console.log($);
   //Get button element
   var searchGiphyButton = document.getElementById("getMeow");
